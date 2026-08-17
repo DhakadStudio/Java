@@ -1,0 +1,49 @@
+# Compiled Java files
+*.class
+
+# Java build output
+out/
+build/
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Java package/build files
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+
+# Maven
+.mvn/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Application-generated data
+# Uncomment if you don't want local data files uploaded
+# *.json
+# *.db
+# *.sqlite
