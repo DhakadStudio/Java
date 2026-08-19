@@ -1,0 +1,21 @@
+# Java compiled files
+*.class
+
+# Maven
+target/
+.mvn/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local application data
+todolist/tasks.json
