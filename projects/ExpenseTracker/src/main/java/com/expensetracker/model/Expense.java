@@ -20,7 +20,6 @@ public class Expense{
     this.date = LocalDate.now();
   }
 
-
   @Override
   public String toString(){
     return "ID: #" + this.id + "\nAmount: " + amount + "\nDescription: " + description + "\nCategory: " + category + "\nDate: " + date;
@@ -29,4 +28,21 @@ public class Expense{
   public int getId(){
     return this.id;
   }
+
+  public void setAmount(double amount){
+    this.amount = amount;
+  }
+
+  public void setDescription(String description){
+    this.description = description;
+  }
+
+  public void setCategory(Category category){
+    this.category = category;
+  }
+
+  public void setDate(LocalDate date){
+    this.date = date;
+  }
+
 }
